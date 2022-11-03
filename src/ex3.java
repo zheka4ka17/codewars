@@ -13,7 +13,7 @@ public class ex3 {
             boolean b = (int) strLowerCase.charAt(i)>=(int) 'а' &&(int) strLowerCase.charAt(i) <= (int) 'я'  ;
             if (b) {
               str2+= strLowerCase.charAt(i);
-            if (str2.length()>maxString.length())
+            if (str2.length()>=maxString.length())
                maxString = str2;}
            else if (!b)
                str2="";
